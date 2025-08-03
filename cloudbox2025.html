@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>云端百宝箱</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{margin:0;font-family:Helvetica,arial;background:#f7f7f7}
+    h1{text-align:center;margin:20px 0 10px;font-size:22px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:15px;padding:20px}
+    .item{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.1);overflow:hidden;text-align:center;cursor:pointer;transition:.3s}
+    .item:hover{transform:scale(1.03)}
+    .item img{width:100%;height:110px;object-fit:cover}
+    .item p{margin:8px;font-size:14px}
+  </style>
+</head>
+<body>
+  <h1>云端百宝箱</h1>
+  <div class="grid">
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=varFert')">
+      <img src="https://via.placeholder.com/300x150/4CAF50/fff?text=变量施肥" /><p>变量施肥处方图</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=dripAI')">
+      <img src="https://via.placeholder.com/300x150/2196F3/fff?text=智能滴灌" /><p>智能滴灌阀门</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=crisprDrought')">
+      <img src="https://via.placeholder.com/300x150/FF9800/fff?text=耐旱CRISPR" /><p>耐旱 CRISPR 玉米</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=uavSow')">
+      <img src="https://via.placeholder.com/300x150/9C27B0/fff?text=无人机播撒" /><p>卫星+无人机播撒</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=bioChar')">
+      <img src="https://via.placeholder.com/300x150/795548/fff?text=秸秆炭毯" /><p>秸秆生物炭毯</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=soilNail')">
+      <img src="https://via.placeholder.com/300x150/607D8B/fff?text=IoT钉" /><p>土壤墒情 IoT 钉</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=heatAlert')">
+      <img src="https://via.placeholder.com/300x150/E91E63/fff?text=高温预警" /><p>高温预警小程序</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=blockchainCarbon')">
+      <img src="https://via.placeholder.com/300x150/3F51B5/fff?text=区块链碳" /><p>碳足迹区块链</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=shareMach')">
+      <img src="https://via.placeholder.com/300x150/009688/fff?text=农机共享" /><p>农机共享平台</p></div>
+    <div class="item" onclick="window.open('https://code.earthengine.google.com/?accept_repo=farmerAI')">
+      <img src="https://via.placeholder.com/300x150/FFC107/fff?text=农户AI助手" /><p>农户 AI 助手</p></div>
+  </div>
+</body>
+</html>
